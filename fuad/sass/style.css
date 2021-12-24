@@ -558,7 +558,7 @@ button {
   background-repeat: no-repeat;
   height: 350px;
   background-size: 100%;
-  margin: 30px 15px;
+  margin: 30px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
