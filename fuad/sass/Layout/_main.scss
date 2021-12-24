@@ -30,6 +30,7 @@
         img {
             position: absolute;
             top: 80px;
+            object-fit: cover;
             height: 500px;
             right: 0;
         }
@@ -83,21 +84,22 @@
             z-index: 1;
 
             &:before {
-                border-top: 2px solid $main;
+                bottom: 0;
                 content: "";
                 margin: 0 auto;
                 position: absolute;
                 top: 50%;
                 left: 0;
+                background-image: linear-gradient(to right, #27ae5f83, rgba(0, 0, 0, 0) 40%,rgba(0, 0, 0, 0) 60%, #27ae5f83);
                 right: 0;
-                bottom: 0;
                 width: 100%;
+                height: 2px;
                 z-index: -1;
             }
 
             span {
                 background: #fff;
-                padding: 0 15px;
+                padding: 0 30px;
             }
         }
     }
@@ -106,7 +108,18 @@
         padding: 20px;
         background: #F5F5F5;
         border-radius: 15px;
+        text-align: center;
+        img{
+            height: 150px;
+            object-fit: cover;
+        }
         
+    }
+    .item2{
+        padding: 20px;
+        background: #F5F5F5;
+        border-radius: 15px;
+        text-align: center;
     }
     p{
         font: normal normal 18px Zilla Slab;

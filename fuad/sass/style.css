@@ -25,10 +25,6 @@ ul {
   padding: 0;
 }
 
-.container {
-  padding: 0;
-}
-
 button {
   cursor: pointer;
 }
@@ -46,7 +42,7 @@ button {
   margin: 0;
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1260px) {
   .container_ {
     max-width: 1260px;
     margin: auto;
@@ -63,9 +59,9 @@ button {
   }
   #nav .navbar {
     padding: 15px !important;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   #nav .navbar .language {
     padding: 0px 30px !important;
@@ -84,7 +80,7 @@ button {
     margin-top: 40px;
   }
   #nav .navbar-brand {
-    margin-right: 60px !important;
+    margin-right: 00px !important;
   }
   #nav .navbar-nav {
     border: none !important;
@@ -95,6 +91,8 @@ button {
             box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.07);
     border-radius: 50%;
     padding: 10px;
+    position: absolute;
+    right: 0;
   }
   #nav .offcanvas-header {
     padding: 0px 30px !important;
@@ -117,8 +115,9 @@ button {
     background: unset;
     color: #fff !important;
     opacity: 1 !important;
-    font-size: 23px;
-    margin-left: 60px;
+    font-size: 32px;
+    position: absolute;
+    right: -60px;
   }
   #header {
     height: 500px !important;
@@ -192,6 +191,7 @@ button {
   #recept .recept {
     height: 320px !important;
     padding: 25px !important;
+    margin: 0 !important;
   }
   #recept .pagination {
     margin: 30px !important;
@@ -275,16 +275,15 @@ button {
   text-shadow: 0px 3px 37px rgba(0, 0, 0, 0.25);
 }
 
-#header .item .social {
-  position: absolute;
-  bottom: 20px;
+#header .social {
+  margin-top: -40px;
 }
 
-#header .item .social a {
+#header .social a {
   background-color: #FFFFFF;
   color: #303030;
   font-size: 15px;
-  padding: 6px 10px;
+  padding: 4px 10px;
   border-radius: 50%;
   margin-right: 10px;
   -webkit-transition: 0.5s;
@@ -292,7 +291,7 @@ button {
   z-index: 99;
 }
 
-#header .item .social a:hover {
+#header .social a:hover {
   background-color: #27AE60;
   color: #FFFFFF;
 }
@@ -301,7 +300,7 @@ button {
   position: absolute;
   top: 50%;
   color: #fff;
-  right: 5%;
+  right: 0;
   z-index: 1;
   width: auto;
   background: transparent;
@@ -315,7 +314,7 @@ button {
   position: absolute;
   top: 50%;
   z-index: 1;
-  left: 5%;
+  left: 0;
   width: auto;
   padding: 5px 12px;
   color: #fff;
@@ -428,7 +427,7 @@ button {
 
 #nav .text2 {
   background-color: #FFFFFF;
-  width: 300px;
+  width: 100%;
   padding: 25px 20px;
   margin: 50px 0;
 }
@@ -496,7 +495,7 @@ button {
   background-color: #FFFFFF;
   color: #303030;
   font-size: 15px;
-  padding: 6px 10px;
+  padding: 4px 10px;
   border-radius: 50%;
   margin-right: 10px;
   -webkit-transition: 0.5s;
@@ -610,21 +609,23 @@ button {
 }
 
 #recept .title h2.background:before {
-  border-top: 2px solid #27AE60;
+  bottom: 0;
   content: "";
   margin: 0 auto;
   position: absolute;
   top: 50%;
   left: 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(#27ae5f83), color-stop(40%, rgba(0, 0, 0, 0)), color-stop(60%, rgba(0, 0, 0, 0)), to(#27ae5f83));
+  background-image: linear-gradient(to right, #27ae5f83, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 60%, #27ae5f83);
   right: 0;
-  bottom: 0;
   width: 100%;
+  height: 2px;
   z-index: -1;
 }
 
 #recept .title h2.background span {
   background: #fff;
-  padding: 0 15px;
+  padding: 0 30px;
 }
 
 #recept .recept {
@@ -632,9 +633,9 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -976,7 +977,7 @@ button {
 
 #others .others_ img {
   border-radius: 19px;
-  height: 100%;
+  height: 180px;
   -o-object-fit: cover;
      object-fit: cover;
   margin-bottom: 20px;
@@ -1160,6 +1161,8 @@ button {
 #main .main img {
   position: absolute;
   top: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 500px;
   right: 0;
 }
@@ -1208,27 +1211,43 @@ button {
 }
 
 #product .title h2.background:before {
-  border-top: 2px solid #27AE60;
+  bottom: 0;
   content: "";
   margin: 0 auto;
   position: absolute;
   top: 50%;
   left: 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(#27ae5f83), color-stop(40%, rgba(0, 0, 0, 0)), color-stop(60%, rgba(0, 0, 0, 0)), to(#27ae5f83));
+  background-image: linear-gradient(to right, #27ae5f83, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 60%, #27ae5f83);
   right: 0;
-  bottom: 0;
   width: 100%;
+  height: 2px;
   z-index: -1;
 }
 
 #product .title h2.background span {
   background: #fff;
-  padding: 0 15px;
+  padding: 0 30px;
 }
 
 #product .item {
   padding: 20px;
   background: #F5F5F5;
   border-radius: 15px;
+  text-align: center;
+}
+
+#product .item img {
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#product .item2 {
+  padding: 20px;
+  background: #F5F5F5;
+  border-radius: 15px;
+  text-align: center;
 }
 
 #product p {

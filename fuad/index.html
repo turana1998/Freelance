@@ -26,8 +26,8 @@
     <!-- Header section start -->
     <section id="header" style="background-image: url(./img/bg.png);height:700px">
 
-        <div id="nav">
-            <div class="container_">
+        <div id="nav" class="d-flex">
+            <div class="container mb-0">
                 <nav class="navbar navbar-expand-lg navbar-light p-0">
                     <div class="container_ d-flex align-items-end">
                         <a class="navbar-brand" href="index.html">
@@ -35,87 +35,93 @@
                         </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                             data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                            <img  src="./img/burger.png"/>
+                            <img src="./img/burger.png" />
                         </button>
-                        <div class="offcanvas offcanvas-end w-auto" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas offcanvas-end w-auto" tabindex="-1" id="offcanvasNavbar"
+                            aria-labelledby="offcanvasNavbarLabel">
                             <div class="offcanvas-header">
                                 <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
                                     <a class="navbar-brand" href="index.html">
                                         <img src="./img/logo2.png" />
                                     </a>
                                 </h5>
-                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">X</button>
-                              </div>
-                              <div class="offcanvas-body p-0">
-                            <ul class="navbar-nav ">
-                                <li class="nav-item">
-                                    <a class="nav-link " aria-current="page" href="about.html">Haqqımızda</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active" href="recept-detail.html">Məhsullar </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="recept.html">Reseptlər </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Bizimlə Əlaqə </a>
-                                </li>
-                                <select class="d-none d-sm-block">
-                                    <option selected>AZ</option>
-                                    <option value="1">EN</option>
-                                    <option value="2">RU</option>
-                                </select>
-                               
-                            </ul>
-                           
-                            <div class="d-flex d-sm-none language">
-                                <a href="">AZ</a>
-                                <a href="">EN</a>
-                                <a href="">RU</a>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                    aria-label="Close">X</button>
                             </div>
-                            <div class="text2 d-flex d-sm-none ">
-                                <img src="./img/flg.png" />
-                                <p>Yeni Zelandiya<br>
-                                    keyfiyyəti</p>
-                            </div>
-                            <div class="d-flex d-sm-none social">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                                <a href="#"><i class="fab fa-youtube"></i></a>
-                            </div>
+                            <div class="offcanvas-body p-0">
+                                <ul class="navbar-nav ">
+                                    <li class="nav-item">
+                                        <a class="nav-link " aria-current="page" href="about.html">Haqqımızda</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="recept-detail.html">Məhsullar </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="recept.html">Reseptlər </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Bizimlə Əlaqə </a>
+                                    </li>
+                                    <select class="d-none d-sm-block">
+                                        <option selected>AZ</option>
+                                        <option value="1">EN</option>
+                                        <option value="2">RU</option>
+                                    </select>
+
+                                </ul>
+
+                                <div class="d-flex d-sm-none language">
+                                    <a href="">AZ</a>
+                                    <a href="">EN</a>
+                                    <a href="">RU</a>
+                                </div>
+                                <div class="text2 d-flex d-sm-none ">
+                                    <img src="./img/flg.png" />
+                                    <p>Yeni Zelandiya<br>
+                                        keyfiyyəti</p>
+                                </div>
+                                <div class="d-flex d-sm-none social">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-youtube"></i></a>
+                                </div>
                             </div>
 
                         </div>
-                        
-                        <div class="text d-flex d-none d-sm-flex">
-                            <p>Yeni Zelandiya<br>
-                                keyfiyyəti</p>
-                            <img src="./img/flg.png" />
-                        </div>
+
+
                     </div>
 
                 </nav>
             </div>
+            <div class="text d-none d-xl-flex">
+                <p>Yeni Zelandiya<br>
+                    keyfiyyəti</p>
+                <img src="./img/flg.png" />
+            </div>
         </div>
-        <div class="regular">
-            <div class="item">
-                <div class="container">
+        <div class="container">
+            <div class="regular">
+                <div class="item">
+
                     <p>Əlçatan yenİ ZelanDİya<br>
                         keyfİyyətİ</p>
-                    <div class="d-none d-sm-flex social">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                    </div>
+                   
+                </div>
+
+                <div class="item">
+                    <p>Əlçatan yenİ ZelanDİya<br>
+                        keyfİyyətİ</p>
+                </div>
+                <div class="item">
+                    <p>Əlçatan yenİ ZelanDİya<br>
+                        keyfİyyətİ</p>
                 </div>
             </div>
-            <div class="item">
-                <p>Əlçatan yenİ ZelanDİya<br>
-                    keyfİyyətİ</p>
-            </div>
-            <div class="item">
-                <p>Əlçatan yenİ ZelanDİya<br>
-                    keyfİyyətİ</p>
+            <div class="d-none d-sm-flex social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
             </div>
         </div>
     </section>
@@ -199,7 +205,9 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
-                    <img class="w-100" src="./img/10.png" />
+                    <div class="item2">
+                        <img class="w-100" src="./img/10.png" />
+                    </div>
                 </div>
 
             </div>
@@ -211,7 +219,7 @@
             <div class="title">
                 <h2 class="background"><span>Dadlı reseptlər</span></h2>
             </div>
-            <div class="row">
+            <div class="row d-none d-sm-flex">
                 <div class="col-12 col-md-6 col-lg-4 m-0 p-0">
 
                     <div class="recept" style="
@@ -279,6 +287,26 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="regular d-block d-sm-none" >
+                <div class="recept" style="
+                background-image: 
+                linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%),url('./img/2.png')">
+                   <div class=""></div>
+                   <div class="">
+                       <h3>Fish Biryani</h3>
+                       <p>Lorem Ipsum is simply dummy text of the printing and </p>
+                   </div>
+               </div>
+               <div class="recept" style="
+               background-image: 
+               linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%),url('./img/2.png')">
+                  <div class=""></div>
+                  <div class="">
+                      <h3>Fish Biryani</h3>
+                      <p>Lorem Ipsum is simply dummy text of the printing and </p>
+                  </div>
+              </div>
             </div>
             <div class="all">
                 <button>Bütün reseptlər</button>
@@ -362,39 +390,13 @@
         nextArrow: '<button class="next"><img src="./img/next.png"/></button>',
         cssEase: "linear",
     });
-    $("#new_arrival .regular").slick({
+    $("#recept .regular").slick({
         dots: false,
-        infinite: false,
-        speed: 300,
-        prevArrow: '<button class="prev"><img src="./img/prev.png"/></button>',
-        nextArrow: '<button class="next"><img src="./img/next.png"/></button>',
-        slidesToShow: 4,
-        slidesToScroll: 4,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
-                    infinite: true,
-                    dots: true
-                }
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-        ]
+        infinite: true,
+        speed: 500,
+        fade: true,
+        arrow:false,
+        cssEase: "linear",
     });
 </script>
 

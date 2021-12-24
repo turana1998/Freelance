@@ -19,32 +19,32 @@
             text-shadow: 0px 3px 37px rgba(0, 0, 0, 0.25);
         }
 
-        .social {
-                position: absolute;
-                bottom: 20px;
-            a {
-                background-color: $white;
-                color: #303030;
-                font-size: 15px;
-                padding: 6px 10px;
-                border-radius: 50%;
-                margin-right: 10px;
-                transition: 0.5s;
-                z-index: 99;
-                &:hover {
-                    background-color: $main;
-                    color: $white;
-                }
-            }
-        }
+     
 
     }
+    .social {
+       margin-top: -40px;
+    a {
+        background-color: $white;
+        color: #303030;
+        font-size: 15px;
+        padding: 4px 10px;
+        border-radius: 50%;
+        margin-right: 10px;
+        transition: 0.5s;
+        z-index: 99;
+        &:hover {
+            background-color: $main;
+            color: $white;
+        }
+    }
+}
 
     .regular .next {
         position: absolute;
         top: 50%;
         color: #fff;
-        right: 5%;
+        right: 0;
         z-index: 1;
         width: auto;
         background: transparent;
@@ -59,7 +59,7 @@
         position: absolute;
         top: 50%;
         z-index: 1;
-        left: 5%;
+        left: 0;
         width: auto;
         padding: 5px 12px;
         color: #fff;
@@ -183,7 +183,7 @@
     }
     .text2 {
         background-color: $white;
-        width: 300px;
+        width: 100%;
         padding: 25px 20px;
         margin: 50px 0;
 

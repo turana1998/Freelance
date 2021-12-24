@@ -1,4 +1,4 @@
-@media (min-width: 1400px) {
+@media (min-width: 1260px) {
     .container_ {
         max-width: 1260px;
         margin: auto;
@@ -17,7 +17,7 @@
         }
         .navbar {
             padding: 15px !important;
-            justify-content: end;
+            justify-content: center;
             .language{
                 padding: 0px 30px !important;
                 a{
@@ -36,7 +36,7 @@
         }
 
         .navbar-brand {
-            margin-right: 60px !important;
+            margin-right: 00px !important;
         }
         .navbar-nav{
             border: none !important;
@@ -45,7 +45,9 @@
             background: #FFFFFF;
             box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.07);
             border-radius: 50%;
-            padding: 10px
+            padding: 10px;
+            position: absolute;
+            right: 0;
         }
         .offcanvas-header{
             padding: 0px 30px !important;
@@ -69,8 +71,9 @@
                 background: unset;
                 color: #fff !important;
                 opacity: 1 !important;
-                font-size: 23px;
-                margin-left: 60px;
+                font-size: 32px;
+                position: absolute;
+                right: -60px;
             }
         }
     }
@@ -169,6 +172,7 @@
         .recept {
             height: 320px !important;
             padding: 25px !important;
+            margin: 0 !important;
         }
 
         .pagination {
