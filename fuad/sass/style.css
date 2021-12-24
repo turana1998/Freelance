@@ -58,22 +58,19 @@ button {
 }
 
 @media (max-width: 992px) {
-  #header {
-    height: 500px !important;
-  }
-  #header .social {
+  #nav .social {
     padding: 0px 30px !important;
   }
-  #header .navbar {
+  #nav .navbar {
     padding: 15px !important;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: end;
   }
-  #header .navbar .language {
+  #nav .navbar .language {
     padding: 0px 30px !important;
   }
-  #header .navbar .language a {
+  #nav .navbar .language a {
     border: 1px solid #FFFFFF;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -86,42 +83,45 @@ button {
     margin-right: 15px;
     margin-top: 40px;
   }
-  #header .navbar-brand {
+  #nav .navbar-brand {
     margin-right: 30px !important;
   }
-  #header .navbar-nav {
+  #nav .navbar-nav {
     border: none !important;
   }
-  #header .navbar-toggler {
+  #nav .navbar-toggler {
     background: #FFFFFF;
     -webkit-box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.07);
             box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.07);
     border-radius: 50%;
     padding: 10px;
   }
-  #header .offcanvas-header {
+  #nav .offcanvas-header {
     padding: 0px 30px !important;
   }
-  #header .offcanvas-end {
+  #nav .offcanvas-end {
     left: 0;
     width: 80% !important;
     background-color: #27AE60;
   }
-  #header .offcanvas-end ul {
-    padding: 0px 30px !important;
+  #nav .offcanvas-end ul {
+    padding: 50px 30px 0 30px !important;
   }
-  #header .offcanvas-end .nav-link {
+  #nav .offcanvas-end .nav-link {
     color: #FFFFFF !important;
   }
-  #header .offcanvas-end .offcanvas-title {
+  #nav .offcanvas-end .offcanvas-title {
     padding-top: 40px;
   }
-  #header .offcanvas-end .btn-close {
+  #nav .offcanvas-end .btn-close {
     background: unset;
     color: #fff !important;
     opacity: 1 !important;
     font-size: 23px;
     margin-left: 60px;
+  }
+  #header {
+    height: 500px !important;
   }
   #header .item {
     height: 400px !important;
