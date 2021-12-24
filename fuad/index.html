@@ -307,6 +307,24 @@
                       <p>Lorem Ipsum is simply dummy text of the printing and </p>
                   </div>
               </div>
+              <div class="recept" style="
+              background-image: 
+              linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%),url('./img/2.png')">
+                 <div class=""></div>
+                 <div class="">
+                     <h3>Fish Biryani</h3>
+                     <p>Lorem Ipsum is simply dummy text of the printing and </p>
+                 </div>
+             </div>
+             <div class="recept" style="
+             background-image: 
+             linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%),url('./img/2.png')">
+                <div class=""></div>
+                <div class="">
+                    <h3>Fish Biryani</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and </p>
+                </div>
+            </div>
             </div>
             <div class="all">
                 <button>Bütün reseptlər</button>
@@ -342,9 +360,16 @@
                             <h4>Elektron poçt</h4>
                             <p>sales@goldencrown.az</p>
                         </div>
+                        <div class="element d-block d-sm-none">
+                            <div class="d-flex social">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
+                <div class="col-12 col-md-6 col-lg-3 d-none d-sm-block" >
                     <div class="item item_">
                         <div class="element">
                             <div class="d-flex social">
@@ -356,7 +381,7 @@
                     </div>
                 </div>
             </div>
-            <p class="text">Golden Crown - Bütün hüquqlar qorunur 2021</p>
+            <p class="text"><span>Golden Crown -</span> Bütün hüquqlar qorunur 2021</p>
         </div>
     </section>
     <!-- Footer section end -->
@@ -391,7 +416,7 @@
         cssEase: "linear",
     });
     $("#recept .regular").slick({
-        dots: false,
+        dots: true,
         infinite: true,
         speed: 500,
         fade: true,
