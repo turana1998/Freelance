@@ -192,6 +192,7 @@ button {
     height: 320px !important;
     padding: 25px !important;
     margin: 0 !important;
+    margin-bottom: 30px !important;
   }
   #recept .pagination {
     margin: 30px !important;
