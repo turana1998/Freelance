@@ -1,0 +1,67 @@
+#footer {
+    .text {
+        font: normal normal 16px Zilla Slab;
+        color: $white;
+        text-align: center;
+        margin: 0;
+        margin-top: 80px;
+    }
+
+    background-color: $main;
+    padding: 55px 0 30px 0;
+
+    @media (min-width: 1400px) {
+        .item_ {
+            border-left: 1px solid $white;
+            height: 100%;
+
+            .element {
+                width: 150px;
+                height: 100%;
+                margin: auto;
+            }
+        }
+    }
+
+    .item {
+
+        h4 {
+
+            font: normal 600 24px Zilla Slab;
+            line-height: 29px;
+            color: $white;
+            margin: 0;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font: normal 300 18px Zilla Slab;
+            color: $white;
+            line-height: 28px;
+            margin: 0;
+
+        }
+
+        .social {
+            height: 100%;
+            display: flex;
+            align-items: center;
+
+            a {
+                background-color: $white;
+                color: #303030;
+                font-size: 15px;
+                padding: 6px 10px;
+                border-radius: 50%;
+                margin-right: 10px;
+                transition: 0.5s;
+                z-index: 99;
+
+                &:hover {
+                    background-color: $orange;
+                    color: $white;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,201 @@
+#header {
+        background-repeat: no-repeat;
+        background-size: cover;
+
+   
+
+    .item {
+        height: 600px;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            font: normal 500 38px Zilla Slab;
+            text-align: center;
+            letter-spacing: 6px;
+            text-transform: uppercase;
+            color: $white;
+            text-shadow: 0px 3px 37px rgba(0, 0, 0, 0.25);
+        }
+
+        .social {
+                position: absolute;
+                bottom: 20px;
+            a {
+                background-color: $white;
+                color: #303030;
+                font-size: 15px;
+                padding: 6px 10px;
+                border-radius: 50%;
+                margin-right: 10px;
+                transition: 0.5s;
+                z-index: 99;
+                &:hover {
+                    background-color: $main;
+                    color: $white;
+                }
+            }
+        }
+
+    }
+
+    .regular .next {
+        position: absolute;
+        top: 50%;
+        color: #fff;
+        right: 5%;
+        z-index: 1;
+        width: auto;
+        background: transparent;
+        padding: 5px 12px;
+        border-radius: 50%;
+        border: 1px solid #fff;
+        outline: none;
+
+    }
+
+    .regular .prev {
+        position: absolute;
+        top: 50%;
+        z-index: 1;
+        left: 5%;
+        width: auto;
+        padding: 5px 12px;
+        color: #fff;
+        border-radius: 50%;
+        border: 1px solid #fff;
+        background-color: transparent;
+        border-radius: 50%;
+        outline: none;
+
+    }
+
+    .slick-dots {
+        bottom: 20px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 500px;
+
+        .slick-active button {
+            &::before {
+                color: $orange;
+                opacity: 1;
+                font-size: 10px;
+            }
+        }
+
+        li button {
+            &::before {
+                color: $white;
+                opacity: 1;
+                font-size: 10px;
+            }
+        }
+
+
+    }
+}
+#nav {
+    background: linear-gradient(180deg, #FFFFFF 14.1%, rgba(255, 255, 255, 0) 92.75%);
+
+    .navbar-brand {
+        margin-right: 100px;
+    }
+    .social {
+       
+    a {
+        background-color: $white;
+        color: #303030;
+        font-size: 15px;
+        padding: 4px 10px;
+        border-radius: 50%;
+        margin-right: 10px;
+        transition: 0.5s;
+        z-index: 99;
+        &:hover {
+            background-color: $main;
+            color: $white;
+        }
+    }
+}
+    .navbar-nav {
+
+        border-bottom: 1px solid rgba(37, 52, 118, 0.4);
+
+        .nav-item {
+            .nav-link {
+                font: normal 300 18px Zilla Slab;
+                line-height: 22px;
+                letter-spacing: 1px;
+                color: $link;
+                margin-right: 40px;
+                padding: 0;
+                padding-bottom: 15px;
+
+            }
+
+            .nav-link.active {
+                border-bottom: 2px solid $main;
+            }
+
+
+        }
+
+        select {
+            font: normal 300 16px Zilla Slab;
+            line-height: 19px;
+            width: 40px;
+            background-color: transparent;
+            letter-spacing: 1px;
+            color: #253476;
+            border: none;
+            margin-right: 40px;
+            padding: 0;
+            margin-bottom: 15px;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            /* Remove default arrow */
+            background-image: url(../../img/select.png);
+            /* Add custom arrow */
+            background-repeat: no-repeat;
+            background-position: right center;
+
+        }
+    }
+
+    .text {
+        background-color: $blue;
+        width: 300px;
+        padding: 25px 20px;
+
+        p {
+            font: normal 500 14px Zilla Slab;
+            line-height: 17px;
+            letter-spacing: 1px;
+            color: $white;
+            margin: 0;
+            margin-right: 15px;
+
+        }
+    }
+    .text2 {
+        background-color: $white;
+        width: 300px;
+        padding: 25px 20px;
+        margin: 50px 0;
+
+        p {
+            font: normal 500 14px Zilla Slab;
+            line-height: 17px;
+            letter-spacing: 1px;
+            color: #1F1F24;
+            margin: 0;
+            margin-left: 15px;
+
+        }
+    }
+
+}
