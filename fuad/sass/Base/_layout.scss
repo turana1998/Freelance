@@ -36,3 +36,10 @@ button{
 .slick-dotted.slick-slider{
     margin: 0;
 }
+.fixed{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #fff !important;
+    z-index: 99999;
+}
