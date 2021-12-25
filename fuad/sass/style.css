@@ -456,6 +456,7 @@ button {
   margin-right: 40px;
   padding: 0;
   padding-bottom: 15px;
+  border-bottom: 2px solid transparent;
 }
 
 #nav .navbar-nav .nav-item .nav-link:hover {
@@ -1383,6 +1384,7 @@ button {
   letter-spacing: 1px;
   text-align: start;
   margin-top: 15px;
+  margin-bottom: 0;
   color: #595959;
 }
 
