@@ -114,7 +114,7 @@ button {
     border-radius: 50%;
     padding: 10px;
     position: absolute;
-    right: 0;
+    right: 10px;
   }
   #nav .offcanvas-header {
     padding: 0px 30px !important;
