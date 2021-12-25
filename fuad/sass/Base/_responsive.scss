@@ -168,6 +168,11 @@
             padding-bottom: 40px;
             margin-bottom: 40px;
         }
+        .item2{
+            ol{
+                padding: 0 15px  !important;
+            }
+        }
     }
 
     #others {
@@ -189,21 +194,26 @@
                 font-size: 24px !important;
             }
         }
-
+       
         .recept {
             height: 320px !important;
             padding: 25px !important;
             margin: 0 !important;
             margin-bottom: 30px !important;
         }
+        .regular{
+            .recept {
+                height: 250px !important;
+            }
+        }
 
         .pagination {
-            margin: 30px !important;
+            margin: 30px 0 !important;
         }
 
         .pagination .prev {
-            margin-right: 40px;
-            margin-bottom: 80px;
+            margin-right: 20px !important;
+            margin-bottom: 80px ;
         }
 
         .pagination .next {

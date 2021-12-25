@@ -10,7 +10,7 @@
     background-color: $main;
     padding: 55px 0 30px 0;
 
-    @media (min-width: 1400px) {
+    @media (min-width: 1000px) {
         .item_ {
             border-left: 1px solid $white;
             height: 100%;
@@ -24,7 +24,7 @@
     }
 
     .item {
-
+       
         h4 {
 
             font: normal 600 24px Zilla Slab;

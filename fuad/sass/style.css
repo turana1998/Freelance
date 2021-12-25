@@ -200,6 +200,9 @@ button {
     padding-bottom: 40px;
     margin-bottom: 40px;
   }
+  #food .item2 ol {
+    padding: 0 15px  !important;
+  }
   #others {
     padding: 0 20px;
     margin-bottom: 50px !important;
@@ -223,11 +226,14 @@ button {
     margin: 0 !important;
     margin-bottom: 30px !important;
   }
+  #recept .regular .recept {
+    height: 250px !important;
+  }
   #recept .pagination {
-    margin: 30px !important;
+    margin: 30px 0 !important;
   }
   #recept .pagination .prev {
-    margin-right: 40px;
+    margin-right: 20px !important;
     margin-bottom: 80px;
   }
   #recept .pagination .next {
@@ -452,6 +458,10 @@ button {
   padding-bottom: 15px;
 }
 
+#nav .navbar-nav .nav-item .nav-link:hover {
+  border-bottom: 2px solid #27AE60;
+}
+
 #nav .navbar-nav .nav-item .nav-link.active {
   border-bottom: 2px solid #27AE60;
 }
@@ -466,7 +476,7 @@ button {
   border: none;
   margin-right: 40px;
   padding: 0;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -521,7 +531,7 @@ button {
   margin-top: 80px;
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1000px) {
   #footer .item_ {
     border-left: 1px solid #FFFFFF;
     height: 100%;
@@ -671,6 +681,10 @@ button {
   src: url(../AvertaDemoPE-Regular.ttf);
 }
 
+#recept .slick-slide {
+  margin-right: 20px;
+}
+
 #recept .slick-dots {
   left: 0;
   right: 0;
@@ -796,9 +810,8 @@ button {
 #recept .pagination a {
   background-color: transparent;
   border: none;
-  font: normal normal 16px Zilla Slab;
-  font-size: 16px;
-  line-height: 19px;
+  font: normal normal 22px Manrope;
+  line-height: 22px;
   color: #272727;
 }
 
@@ -810,7 +823,9 @@ button {
   background: #F3F3F3;
   border-radius: 46px;
   padding: 10px 20px;
+  margin-right: 45px;
   color: #272727;
+  font: normal normal 16px Manrope;
 }
 
 #recept .pagination .prev:hover {
@@ -823,6 +838,8 @@ button {
   border-radius: 46px;
   padding: 10px 20px;
   color: #272727;
+  font: normal normal 16px Manrope;
+  margin-left: 45px;
 }
 
 #recept .pagination .next:hover {
@@ -1021,7 +1038,7 @@ button {
 }
 
 #food .item li {
-  font: normal 300 18px Zilla Slab;
+  font: normal normal 16px Zilla Slab;
   line-height: 28px;
   color: #1F1F24;
 }
@@ -1037,7 +1054,7 @@ button {
 }
 
 #food .item2 li {
-  font: normal 300 18px Zilla Slab;
+  font: normal normal 16px Zilla Slab;
   line-height: 28px;
   color: #1F1F24;
 }
@@ -1209,7 +1226,7 @@ button {
 
 #about p {
   font: normal 300 18px Zilla Slab;
-  line-height: 170%;
+  line-height: 30px;
   color: #808080;
   opacity: 0.93;
   text-align: justify;
@@ -1242,6 +1259,7 @@ button {
   color: #333333;
   opacity: 0.5;
   margin-top: 20px;
+  line-height: 26px;
 }
 
 #main .main_mob img {
@@ -1284,8 +1302,8 @@ button {
 #main .inside {
   background-color: #FFFFFF;
   padding: 50px;
-  -webkit-box-shadow: 58px 49px 84px rgba(0, 0, 0, 0.09);
-          box-shadow: 58px 49px 84px rgba(0, 0, 0, 0.09);
+  -webkit-box-shadow: 20px 18px 20px 20px rgba(0, 0, 0, 0.09);
+          box-shadow: 20px 18px 20px 20px rgba(0, 0, 0, 0.09);
 }
 
 #main .inside h3 {
@@ -1299,6 +1317,7 @@ button {
   font: normal 300 20px Zilla Slab;
   color: #333333;
   opacity: 0.5;
+  line-height: 26px;
 }
 
 #product .title h2 {
@@ -1349,10 +1368,22 @@ button {
 }
 
 #product .item2 {
-  padding: 20px;
+  padding: 40px 60px;
   background: #F5F5F5;
   border-radius: 15px;
   text-align: center;
+}
+
+#product .item2 p {
+  font-family: Zilla Slab;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-align: start;
+  margin-top: 15px;
+  color: #595959;
 }
 
 #product p {

@@ -15,6 +15,7 @@
             color: #333333;
             opacity: 0.5;
             margin-top: 20px;
+            line-height: 26px
         }
         img{
             height: 200px;
@@ -47,9 +48,10 @@
     }
 
     .inside {
-        background-color: $white;
+        background-color: #FFFFFF;
         padding: 50px;
-        box-shadow: 58px 49px 84px rgba(0, 0, 0, 0.09);
+        box-shadow: 20px 18px 20px 20px rgba(0, 0, 0, 0.09);;
+        
 
         h3 {
             font: normal 600 36px Zilla Slab;
@@ -62,6 +64,7 @@
             font: normal 300 20px Zilla Slab;
             color: #333333;
             opacity: 0.5;
+            line-height: 26px
         }
     }
 
@@ -116,10 +119,21 @@
         
     }
     .item2{
-        padding: 20px;
+        padding:40px 60px;
         background: #F5F5F5;
         border-radius: 15px;
         text-align: center;
+        p{
+            font-family: Zilla Slab;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 22px;
+            letter-spacing: 1px;
+            text-align: start;
+            margin-top: 15px;
+            color: #595959;
+        }
     }
     p{
         font: normal normal 18px Zilla Slab;

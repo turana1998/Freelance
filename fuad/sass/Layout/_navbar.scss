@@ -147,6 +147,9 @@
                 margin-right: 40px;
                 padding: 0;
                 padding-bottom: 15px;
+                &:hover{
+                    border-bottom: 2px solid $main;
+                }
 
             }
 
@@ -167,7 +170,7 @@
             border: none;
             margin-right: 40px;
             padding: 0;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
             -webkit-appearance: none;
             -moz-appearance: none;
             appearance: none;
