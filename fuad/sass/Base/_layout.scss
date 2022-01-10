@@ -13,7 +13,12 @@ a {
         box-shadow: none !important;
     }
 }
-
+select {
+    box-shadow: none !important;
+    &:focus{
+        box-shadow: none !important;
+    }
+}
 ul {
     list-style: none;
     margin: 0;
@@ -37,7 +42,7 @@ button{
     margin: 0;
 }
 .fixed{
-    position: fixed;
+    position: fixed !important;
     width: 100%;
     top: 0;
     background-color: #fff !important;

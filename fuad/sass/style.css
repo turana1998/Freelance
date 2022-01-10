@@ -19,6 +19,16 @@ a:focus {
           box-shadow: none !important;
 }
 
+select {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+select:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
 ul {
   list-style: none;
   margin: 0;
@@ -43,7 +53,7 @@ button {
 }
 
 .fixed {
-  position: fixed;
+  position: fixed !important;
   width: 100%;
   top: 0;
   background-color: #fff !important;
@@ -188,8 +198,11 @@ button {
   #video h1 {
     font: normal 600 24px Zilla Slab;
     line-height: 30px;
+    margin: auto;
     text-align: center;
     color: #3E3E3E;
+    width: 80%;
+    margin-bottom: 30px;
   }
   #food {
     padding: 0 20px;
@@ -322,6 +335,7 @@ button {
   letter-spacing: 6px;
   text-transform: uppercase;
   color: #FFFFFF;
+  width: 60%;
   text-shadow: 0px 3px 37px rgba(0, 0, 0, 0.25);
 }
 
@@ -408,6 +422,9 @@ button {
 #nav {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(14.1%, #FFFFFF), color-stop(92.75%, rgba(255, 255, 255, 0)));
   background: linear-gradient(180deg, #FFFFFF 14.1%, rgba(255, 255, 255, 0) 92.75%);
+  position: absolute;
+  z-index: 999999;
+  width: 100%;
 }
 
 #nav .navbar-brand {
@@ -467,6 +484,33 @@ button {
   border-bottom: 2px solid #27AE60;
 }
 
+#nav .navbar-nav .select_ {
+  font: normal 300 16px Zilla Slab;
+  line-height: 19px;
+  width: 40px;
+  background-color: transparent;
+  letter-spacing: 1px;
+  color: #253476;
+  border: none;
+  margin-right: 40px;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+#nav .navbar-nav .select_ .dropdown-item img {
+  width: 24px;
+  height: 24px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+#nav .navbar-nav .dropdown-item img {
+  width: 24px;
+  height: 24px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 #nav .navbar-nav select {
   font: normal 300 16px Zilla Slab;
   line-height: 19px;
@@ -478,14 +522,26 @@ button {
   margin-right: 40px;
   padding: 0;
   margin-bottom: 20px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
   /* Remove default arrow */
-  background-image: url(../../img/select.png);
   /* Add custom arrow */
   background-repeat: no-repeat;
   background-position: right center;
+}
+
+#nav .navbar-nav select option {
+  padding: 40px;
+  background: white;
+  color: #27AE60;
+  border: red;
+}
+
+#nav .navbar-nav select option:hover {
+  background-color: #27AE60;
+}
+
+#nav .navbar-nav select option[selected] {
+  background-color: #27AE60;
+  color: #FFFFFF;
 }
 
 #nav .text {
@@ -501,6 +557,7 @@ button {
   color: #FFFFFF;
   margin: 0;
   margin-right: 15px;
+  width: 70%;
 }
 
 #nav .text2 {
@@ -596,6 +653,10 @@ button {
   color: #FFFFFF;
 }
 
+#banner {
+  padding-top: 100px;
+}
+
 #banner .banner {
   background-image: url(../../img/banner.png);
   background-repeat: no-repeat;
@@ -640,6 +701,10 @@ button {
   background: repeating-linear-gradient(150deg, #3E3E3E, #3E3E3E 6px, transparent 6px, transparent 12px);
 }
 
+#banner_mob {
+  padding-top: 100px;
+}
+
 #banner_mob .banner_mob {
   background-image: url(../../img/bg2.png);
   background-repeat: no-repeat;
@@ -668,6 +733,7 @@ button {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #27AE60;
+  width: 60%;
 }
 
 #banner_mob .banner_mob p {
@@ -851,7 +917,7 @@ button {
 #video {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(55%, #F4F5F7), color-stop(50%, #fff));
   background: linear-gradient(to bottom, #F4F5F7 55%, #fff 50%);
-  padding-top: 60px;
+  padding-top: 100px;
 }
 
 #video .video_item {
@@ -870,6 +936,7 @@ button {
   font: normal 600 36px Zilla Slab;
   line-height: 43px;
   color: #3E3E3E;
+  width: 80%;
 }
 
 #video .video-text p {
@@ -1385,6 +1452,7 @@ button {
   text-align: start;
   margin-top: 15px;
   margin-bottom: 0;
+  max-width: 200px;
   color: #595959;
 }
 

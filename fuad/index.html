@@ -24,98 +24,108 @@
 
 <body>
     <!-- Header section start -->
-    <section id="header" style="background-image: url(./img/bg.png);height:700px">
-
-        <div id="nav" class="d-flex">
-            <div class="container mb-0 p-0">
-                <nav class="navbar navbar-expand-lg navbar-light p-0">
-                    <div class="container d-flex align-items-end justify-content-center">
-                        <a class="navbar-brand" href="index.html">
-                            <img src="./img/logo.png" />
-                        </a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                            <img src="./img/burger.png" />
-                        </button>
-                        <div class="offcanvas offcanvas-end w-auto" tabindex="-1" id="offcanvasNavbar"
-                            aria-labelledby="offcanvasNavbarLabel">
-                            <div class="offcanvas-header">
-                                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                                    <a class="navbar-brand" href="index.html">
-                                        <img src="./img/logo2.png" />
-                                    </a>
-                                </h5>
-                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                                    aria-label="Close">X</button>
-                            </div>
-                            <div class="offcanvas-body p-0">
-                                <ul class="navbar-nav ">
-                                    <li class="nav-item">
-                                        <a class="nav-link " aria-current="page" href="index.html#main">Haqqımızda</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link active" href="recept-detail.html">Məhsullar </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="recept.html">Reseptlər </a>
-                                    </li>
-                                    <li class="nav-item">
-                                       <a class="nav-link" href="#footer">Bizimlə Əlaqə</a>
-                                    </li>
-                                    <select class="d-none d-lg-block">
-                                        <option selected>AZ</option>
-                                        <option value="1">EN</option>
-                                        <option value="2">RU</option>
-                                    </select>
-
-                                </ul>
-
-                                <div class="d-flex d-lg-none language">
-                                    <a href="">AZ</a>
-                                    <a href="">EN</a>
-                                    <a href="">RU</a>
-                                </div>
-                                <div class="text2 d-flex d-lg-none ">
-                                    <img src="./img/flg.png" />
-                                    <a href="about.html"><p>Yeni Zelandiya<br>
-                            keyfiyyəti</p></a>
-                                </div>
-                                <div class="d-flex d-lg-none social">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                    <a href="#"><i class="fab fa-youtube"></i></a>
-                                </div>
-                            </div>
-
+    <div id="nav" class="d-flex">
+        <div class="container mb-0 p-0">
+            <nav class="navbar navbar-expand-lg navbar-light p-0">
+                <div class="container d-flex align-items-end justify-content-center">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="./img/logo.png" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <img src="./img/burger.png" />
+                    </button>
+                    <div class="offcanvas offcanvas-end w-auto" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                                <a class="navbar-brand" href="index.html">
+                                    <img src="./img/logo2.png" />
+                                </a>
+                            </h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close">X</button>
                         </div>
-                        <div class="text d-none d-xl-flex">
-                            <a href="about.html"><p>Yeni Zelandiya<br>
-                            keyfiyyəti</p></a>
-                            <img src="./img/flg.png" />
+                        <div class="offcanvas-body p-0">
+                            <ul class="navbar-nav ">
+                                <li class="nav-item">
+                                    <a class="nav-link " aria-current="page" href="index.html#main">Haqqımızda</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="recept-detail.html">Məhsullar </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="recept.html">Reseptlər </a>
+                                </li>
+                                <li class="nav-item">
+                                   <a class="nav-link" href="#footer">Bizimlə Əlaqə</a>
+                                </li>
+                                <div class="dropdown d-none d-md-block">
+                                    <button class="select_ dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                     AZ
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <a class="dropdown-item" href="https://bakuer.az/langg/az"> <img class="ml-1 mr-1 icon-img pb-1" src="https://bakuer.az/front/style/my_style/img/azerbaijan.png" alt=""><span> AZ </span></a>
+                                        <a class="dropdown-item" href="https://bakuer.az/langg/en"> <img class="ml-1 mr-1 icon-img pb-1" src="https://bakuer.az/front/style/my_style/img/uk.png" alt=""><span> EN </span></a>
+                                        <a class="dropdown-item" href="https://bakuer.az/langg/ru"> <img class="ml-1 mr-1 icon-img pb-1" src="https://bakuer.az/front/style/my_style/img/russia.png" alt=""><span> RU </span></a>
+                                </div>
+                                    </ul>
+                                  </div>
+                                <!-- <select class="form-select d-none d-lg-block" >
+                                    <option selected>AZ</option>
+                                    <option value="1">EN</option>
+                                    <option value="2">RU</option>
+                                </select> -->
+
+                            </ul>
+
+                            <div class="d-flex d-lg-none language">
+                                <a href="">AZ</a>
+                                <a href="">EN</a>
+                                <a href="">RU</a>
+                            </div>
+                            <div class="text2 d-flex d-lg-none ">
+                                <img src="./img/flg.png" />
+                                <a href="about.html"><p>Yeni Zelandiya
+                        keyfiyyəti</p></a>
+                            </div>
+                            <div class="d-flex d-lg-none social">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                            </div>
                         </div>
 
                     </div>
+                    <div class="text d-none d-xl-flex">
+                        <a href="about.html"><p>Yeni Zelandiya
+                        keyfiyyəti</p></a>
+                        <img src="./img/flg.png" />
+                    </div>
 
-                </nav>
+                </div>
 
-            </div>
+            </nav>
 
         </div>
+
+    </div>
+    <section id="header" style="background-image: url(./img/bg.png);height:700px">       
         <div class="container">
             <div class="regular">
                 <div class="item">
 
-                    <p>Əlçatan yenİ ZelanDİya<br>
+                    <p>Əlçatan yenİ ZelanDİya
                         keyfİyyətİ</p>
 
                 </div>
 
                 <div class="item">
-                    <p>Əlçatan yenİ ZelanDİya<br>
+                    <p>Əlçatan yenİ ZelanDİya
                         keyfİyyətİ</p>
                 </div>
                 <div class="item">
-                    <p>Əlçatan yenİ ZelanDİya<br>
+                    <p>Əlçatan yenİ ZelanDİya
                         keyfİyyətİ</p>
                 </div>
             </div>
@@ -209,10 +219,10 @@
                     <div class="item2">
                         <div class="text-start">
                             <img width="60px" src="./img/flg.png" />
-                            <p>Yeni Zelandiya<br>
+                            <p>Yeni Zelandiya
                                 məhsulu</p>
                         </div>
-                        <img class="w-100" src="./img/10.png" />
+                        <img class="w-100" src="./img/15.png" />
                     </div>
                 </div>
 

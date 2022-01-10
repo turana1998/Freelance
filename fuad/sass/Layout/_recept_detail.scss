@@ -1,6 +1,6 @@
 #video {
     background: linear-gradient(to bottom, #F4F5F7 55%, #fff 50%);
-    padding-top: 60px;
+    padding-top:100px;
 
     .video_item {
         position: relative;
@@ -17,6 +17,7 @@
             font: normal 600 36px Zilla Slab;
             line-height: 43px;
             color: #3E3E3E;
+            width: 80%;
         }
 
         p {
@@ -24,6 +25,7 @@
             font: normal 300 18px Zilla Slab;
             line-height: 22px;
             color: #1F1F24;
+            
 
             span {
                 font: normal 600 18px Zilla Slab;
