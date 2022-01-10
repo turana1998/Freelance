@@ -225,6 +225,10 @@
             height: 180px;
             object-fit: cover;
             margin-bottom: 20px;
+            transition: 2s;
+            &:hover{
+                transform: scale(1.1);
+            }
         }
         .text{
             display: flex;

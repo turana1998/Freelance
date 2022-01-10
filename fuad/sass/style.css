@@ -1171,6 +1171,13 @@ button {
   -o-object-fit: cover;
      object-fit: cover;
   margin-bottom: 20px;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+#others .others_ img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 #others .others_ .text {
@@ -1251,6 +1258,10 @@ button {
  */
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.75);
           box-shadow: 0 0 15px rgba(0, 0, 0, 0.75);
+}
+
+#about {
+  padding-top: 80px;
 }
 
 #about .item {
@@ -1433,6 +1444,13 @@ button {
   height: 150px;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+#product .item img:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 #product .item2 {
