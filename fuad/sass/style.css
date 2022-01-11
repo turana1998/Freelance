@@ -317,6 +317,8 @@ button {
 }
 
 #header .item {
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 600px;
   display: -webkit-box !important;
   display: -ms-flexbox !important;
@@ -374,7 +376,7 @@ button {
   position: absolute;
   top: 50%;
   color: #fff;
-  right: 0;
+  right: 10%;
   z-index: 1;
   width: auto;
   background: transparent;
@@ -388,7 +390,7 @@ button {
   position: absolute;
   top: 50%;
   z-index: 1;
-  left: 0;
+  left: 10%;
   width: auto;
   padding: 5px 12px;
   color: #fff;
