@@ -125,7 +125,14 @@
 
     #video {
         padding: 0 20px;
-
+        .item{
+            img{
+               padding-bottom: 40px;
+            }
+        }
+        .slick-dots{
+            bottom: 40px !important;
+        }
         .video_item {
             height: 200px !important;
             margin-bottom: 20px;
@@ -179,7 +186,7 @@
 
     #others {
         padding: 0 20px;
-        margin-bottom: 50px !important;
+        margin-bottom: 70px !important;
 
         .title {
             justify-content: center !important;
@@ -208,9 +215,13 @@
             }
         }
         .regular{
-            .recept {
+            .inside{
                 height: 250px !important;
+                .recept {
+                    height: 250px !important;
+                }
             }
+            
         }
 
         .pagination {

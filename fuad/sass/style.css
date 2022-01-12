@@ -175,6 +175,12 @@ button {
   #video {
     padding: 0 20px;
   }
+  #video .item img {
+    padding-bottom: 40px;
+  }
+  #video .slick-dots {
+    bottom: 40px !important;
+  }
   #video .video_item {
     height: 200px !important;
     margin-bottom: 20px;
@@ -217,7 +223,7 @@ button {
   }
   #others {
     padding: 0 20px;
-    margin-bottom: 50px !important;
+    margin-bottom: 70px !important;
   }
   #others .title {
     -webkit-box-pack: center !important;
@@ -242,7 +248,10 @@ button {
     padding: 25px !important;
     margin: 0 !important;
   }
-  #recept .regular .recept {
+  #recept .regular .inside {
+    height: 250px !important;
+  }
+  #recept .regular .inside .recept {
     height: 250px !important;
   }
   #recept .pagination {
@@ -345,7 +354,7 @@ button {
 }
 
 #header .social {
-  margin-top: -50px;
+  margin-top: -80px;
   position: absolute;
 }
 
@@ -405,7 +414,7 @@ button {
 }
 
 #header .slick-dots {
-  bottom: 20px;
+  bottom: 40px;
   left: 0;
   right: 0;
   margin: auto;
@@ -831,7 +840,7 @@ button {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 35px;
-  -webkit-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.8s ease-in-out;
   position: relative;
   overflow: hidden;
 }
@@ -839,7 +848,7 @@ button {
 #recept .inside .recept:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-  -webkit-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.8s ease-in-out;
 }
 
 #recept .inside .recept h3 {
@@ -937,7 +946,83 @@ button {
 #video {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(55%, #F4F5F7), color-stop(50%, #fff));
   background: linear-gradient(to bottom, #F4F5F7 55%, #fff 50%);
-  padding-top: 100px;
+  padding-top: 120px;
+}
+
+#video .item {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 300px;
+}
+
+#video .item img {
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all 0.8s ease-in-out;
+}
+
+#video .item img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: all 0.8s ease-in-out;
+}
+
+#video .regular .next {
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  right: 0;
+  z-index: 1;
+  width: auto;
+  background: transparent;
+  padding: 5px 12px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  outline: none;
+}
+
+#video .regular .prev {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  left: 0;
+  width: auto;
+  padding: 5px 12px;
+  color: #fff;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background-color: transparent;
+  border-radius: 50%;
+  outline: none;
+}
+
+#video .slick-dots {
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#video .slick-dots .slick-active button::before {
+  color: #FC9813;
+  opacity: 1;
+  font-size: 10px;
+}
+
+#video .slick-dots li button::before {
+  color: #FFFFFF;
+  opacity: 1;
+  font-size: 10px;
 }
 
 #video .video_item {
@@ -1285,6 +1370,7 @@ button {
 }
 
 #about .item {
+  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1321,6 +1407,14 @@ button {
   height: 350px;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-transition: all 0.8s ease-in-out;
+  overflow: hidden;
+}
+
+#about img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: all 0.8s ease-in-out;
 }
 
 #about p {

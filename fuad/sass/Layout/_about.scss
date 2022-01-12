@@ -1,6 +1,7 @@
 #about{
     padding-top: 80px;
     .item{
+        overflow: hidden;
         display: flex;
             height: 100%;
             flex-direction: column;
@@ -25,6 +26,13 @@
         width: 100%;
         height: 350px;
         object-fit: cover;
+        -webkit-transition: all 0.8s ease-in-out;
+        overflow: hidden;
+        &:hover{
+            -webkit-transform: scale(1.1); 
+            transform: scale(1.1);
+            -webkit-transition: all 0.8s ease-in-out;
+        }
        
     }
     p{
