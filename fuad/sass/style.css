@@ -152,7 +152,7 @@ button {
     right: -60px;
   }
   #header {
-    height: 500px !important;
+    height: 400px !important;
   }
   #header .item {
     height: 400px !important;
@@ -198,11 +198,10 @@ button {
   #video h1 {
     font: normal 600 24px Zilla Slab;
     line-height: 30px;
-    margin: auto;
+    margin: 50px auto;
     text-align: center;
     color: #3E3E3E;
     width: 80%;
-    margin-bottom: 30px;
   }
   #food {
     padding: 0 20px;
@@ -233,11 +232,15 @@ button {
     margin-bottom: 30px !important;
     font-size: 24px !important;
   }
-  #recept .recept {
+  #recept .inside {
+    height: 320px !important;
+    margin: 0 !important;
+    margin-bottom: 30px !important;
+  }
+  #recept .inside .recept {
     height: 320px !important;
     padding: 25px !important;
     margin: 0 !important;
-    margin-bottom: 30px !important;
   }
   #recept .regular .recept {
     height: 250px !important;
@@ -712,7 +715,7 @@ button {
   background-repeat: no-repeat;
   height: 350px;
   background-size: 100%;
-  margin: 30px 0px;
+  margin: 30px 0px 50px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -805,7 +808,14 @@ button {
   padding: 0 30px;
 }
 
-#recept .recept {
+#recept .inside {
+  height: 400px;
+  overflow: hidden;
+  margin: 0 15px 30px 15px;
+  border-radius: 15px;
+}
+
+#recept .inside .recept {
   height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -821,10 +831,18 @@ button {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 35px;
-  margin: 0 15px 30px 15px;
+  -webkit-transition: all 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
 }
 
-#recept .recept h3 {
+#recept .inside .recept:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+#recept .inside .recept h3 {
   font: normal 600 24px Zilla Slab;
   line-height: 29px;
   -webkit-text-decoration-line: underline;
@@ -833,14 +851,14 @@ button {
   margin-bottom: 10px;
 }
 
-#recept .recept p {
+#recept .inside .recept p {
   font: normal normal 18px Zilla Slab;
   line-height: 130%;
   color: #FFFFFF;
   opacity: 0.8;
 }
 
-#recept .recept .new {
+#recept .inside .recept .new {
   background: #FFFFFF;
   border-radius: 46px;
   padding: 6px 20px;
@@ -1362,13 +1380,19 @@ button {
   height: 600px;
 }
 
-#main .main img {
+#main .main .img {
+  width: 50%;
   position: absolute;
   top: 80px;
-  -o-object-fit: cover;
-     object-fit: cover;
   height: 500px;
   right: 0;
+}
+
+#main .main .img img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  height: 500px;
+  width: 100%;
 }
 
 #main .text {

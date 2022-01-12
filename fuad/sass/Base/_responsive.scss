@@ -94,7 +94,7 @@
     #header {
       
 
-        height: 500px !important;
+        height: 400px !important;
 
         .item {
             height: 400px !important;
@@ -153,11 +153,10 @@
         h1 {
             font: normal 600 24px Zilla Slab;
             line-height: 30px;
-            margin: auto;
+            margin:50px auto;
             text-align: center;
             color: #3E3E3E;
             width: 80%;
-            margin-bottom: 30px;
         }
 
     }
@@ -198,11 +197,15 @@
             }
         }
        
-        .recept {
+        .inside{
             height: 320px !important;
-            padding: 25px !important;
             margin: 0 !important;
             margin-bottom: 30px !important;
+            .recept {
+                height: 320px !important;
+                padding: 25px !important;
+                margin: 0 !important;
+            }
         }
         .regular{
             .recept {

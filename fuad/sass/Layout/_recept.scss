@@ -4,6 +4,7 @@
 }
 
 #recept {
+    
     .slick-slide{
         margin-right: 20px;
     }
@@ -65,40 +66,54 @@
         }
     }
 
-    .recept {
+    .inside{
         height: 400px;
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-radius: 15px;
-        display: flex !important;
-        justify-content: space-between;
-        flex-direction: column;
-        padding: 35px;
+        overflow: hidden;
         margin: 0 15px 30px 15px;
-
-        h3 {
-            font: normal 600 24px Zilla Slab;
-            line-height: 29px;
-            text-decoration-line: underline;
-            color: $white;
-            margin-bottom: 10px;
-        }
-
-        p {
-            font: normal normal 18px Zilla Slab;
-            line-height: 130%;
-            color: $white;
-            opacity: 0.8;
-        }
-
-        .new {
-            background: $white;
-            border-radius: 46px;
-            padding: 6px 20px;
-            font: normal 600 18px Zilla Slab;
-            line-height: 22px;
-            color: $main;
-            width: 80px;
+        border-radius: 15px;
+        .recept {
+            height: 400px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 15px;
+            display: flex !important;
+            justify-content: space-between;
+            flex-direction: column;
+            padding: 35px;
+         
+            -webkit-transition: all 0.3s ease-in-out;
+            position: relative;
+            overflow: hidden;
+            &:hover{
+                -webkit-transform: scale(1.1); 
+                transform: scale(1.1);
+                -webkit-transition: all 0.3s ease-in-out;
+            }
+    
+            h3 {
+                font: normal 600 24px Zilla Slab;
+                line-height: 29px;
+                text-decoration-line: underline;
+                color: $white;
+                margin-bottom: 10px;
+            }
+    
+            p {
+                font: normal normal 18px Zilla Slab;
+                line-height: 130%;
+                color: $white;
+                opacity: 0.8;
+            }
+    
+            .new {
+                background: $white;
+                border-radius: 46px;
+                padding: 6px 20px;
+                font: normal 600 18px Zilla Slab;
+                line-height: 22px;
+                color: $main;
+                width: 80px;
+            }
         }
     }
 
