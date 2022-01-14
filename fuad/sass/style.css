@@ -1512,11 +1512,20 @@ button {
   color: #1F1F24;
 }
 
+#main .inside p > * {
+  font: normal 300 20px Zilla Slab;
+  color: #333333;
+  opacity: 0.5;
+  line-height: 26px;
+  margin: 0 !important;
+}
+
 #main .inside p {
   font: normal 300 20px Zilla Slab;
   color: #333333;
   opacity: 0.5;
   line-height: 26px;
+  margin: 0 !important;
 }
 
 #product .title h2 {

@@ -66,12 +66,19 @@
             margin-bottom: 25px;
             color: #1F1F24;
         }
-
+        p > * {
+            font: normal 300 20px Zilla Slab;
+            color: #333333;
+            opacity: 0.5;
+            line-height: 26px;
+            margin: 0 !important;
+          }
         p {
             font: normal 300 20px Zilla Slab;
             color: #333333;
             opacity: 0.5;
-            line-height: 26px
+            line-height: 26px;
+            margin: 0 !important;
         }
     }
 
