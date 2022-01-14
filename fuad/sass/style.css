@@ -1513,18 +1513,31 @@ button {
 }
 
 #main .inside p > * {
-  font: normal 300 20px Zilla Slab;
-  color: #333333;
-  opacity: 0.5;
-  line-height: 26px;
+  font: normal 300 20px Zilla Slab !important;
+  color: #333333 !important;
+  line-height: 34px !important;
   margin: 0 !important;
 }
 
 #main .inside p {
-  font: normal 300 20px Zilla Slab;
-  color: #333333;
+  font: normal 300 20px Zilla Slab !important;
+  color: #333333 !important;
   opacity: 0.5;
-  line-height: 26px;
+  line-height: 34px !important;
+  margin: 0 !important;
+}
+
+#main .inside p span {
+  font: normal 300 20px Zilla Slab !important;
+  color: #333333 !important;
+  line-height: 34px !important;
+  margin: 0 !important;
+}
+
+#main .inside p span span {
+  font: normal 300 20px Zilla Slab !important;
+  color: #333333 !important;
+  line-height: 34px !important;
   margin: 0 !important;
 }
 
