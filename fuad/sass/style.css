@@ -1211,9 +1211,33 @@ button {
 }
 
 #food .item li {
-  font: normal normal 16px Zilla Slab;
-  line-height: 28px;
-  color: #1F1F24;
+  font: normal normal 16px Zilla Slab !important;
+  line-height: 28px !important;
+  color: #1F1F24 !important;
+}
+
+#food .item li > * {
+  font: normal normal 16px Zilla Slab !important;
+  line-height: 28px !important;
+  color: #1F1F24 !important;
+}
+
+#food .item li {
+  font: normal normal 16px Zilla Slab !important;
+  line-height: 28px !important;
+  color: #1F1F24 !important;
+}
+
+#food .item li span {
+  font: normal normal 16px Zilla Slab !important;
+  line-height: 28px !important;
+  color: #1F1F24 !important;
+}
+
+#food .item li span span {
+  font: normal normal 16px Zilla Slab !important;
+  line-height: 28px !important;
+  color: #1F1F24 !important;
 }
 
 #food .item2 h3 {

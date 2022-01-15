@@ -243,9 +243,30 @@
             padding: 0;
         }
         li{
-            font: normal normal 16px Zilla Slab;
-            line-height: 28px;
-            color: #1F1F24;
+            font: normal normal 16px Zilla Slab !important;
+            line-height: 28px !important;
+            color: #1F1F24 !important;
+        }
+        li > * {
+            font: normal normal 16px Zilla Slab !important;
+            line-height: 28px !important;
+            color: #1F1F24 !important;
+          }
+          
+        li {
+            font: normal normal 16px Zilla Slab !important;
+            line-height: 28px !important;
+            color: #1F1F24 !important;
+            span{
+                font: normal normal 16px Zilla Slab !important;
+                line-height: 28px !important;
+                color: #1F1F24 !important;
+                span{
+                    font: normal normal 16px Zilla Slab !important;
+                    line-height: 28px !important;
+                    color: #1F1F24 !important;
+                }
+            }
         }
     }
     .item2{
