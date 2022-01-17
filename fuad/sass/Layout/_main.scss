@@ -1,5 +1,5 @@
 #main {
-    margin-top: 50px;
+    padding-top: 50px;
     .main_mob{
         margin: 0 15px ;
         h3 {
@@ -76,7 +76,7 @@
         p {
             font: normal 300 20px Zilla Slab !important;
             color: #333333 !important;
-            opacity: 0.5;
+            opacity: 0.8;
             line-height: 34px !important;
             margin: 0 !important;
             span{
@@ -104,8 +104,8 @@
             line-height: 43px;
             text-align: center;
             color: #3E3E3E;
-            margin-top: 130px;
-            margin-bottom: 70px;
+            padding-top: 130px;
+            padding-bottom: 70px;
         }
 
         h2.background {
@@ -117,7 +117,7 @@
                 content: "";
                 margin: 0 auto;
                 position: absolute;
-                top: 50%;
+                top: 60%;
                 left: 0;
                 background-image: linear-gradient(to right, #27ae5f83, rgba(0, 0, 0, 0) 40%,rgba(0, 0, 0, 0) 60%, #27ae5f83);
                 right: 0;

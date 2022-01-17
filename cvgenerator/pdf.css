@@ -12,6 +12,7 @@ body {
 }
 .w-70{
     width: 70%;
+    background-color: #fff;
 }
 .mt-50 {
     margin-top: 50px
@@ -109,42 +110,85 @@ ul{
 ul li a{
   font-size: 12px;
 }
-.left{
+#invoice .left{
     background-color: rgb(51 83 132);
     padding: 40px ;
     color: #fff;
     height: 100%;
 }
-.left img{
+#invoice .left img{
     border-radius: 50%;
     height: 100px;
     object-fit: cover;
 }
-.left h2{
+#invoice .left h2{
     font-size: 16px;
     color: #fff;
     text-transform: capitalize;
     margin-top: 40px;
 }
-.right{
+#invoice .right{
     padding: 40px ;
 }
-.right h1{
+#invoice .right h1{
     color: rgb(51 83 132);
     font-weight: 700;
 }
-.right hr{
+#invoice .right hr{
     width: 100px;
     background-color: rgb(51 83 132);
     height: 2px;
 }
-.right .profession{
+#invoice .right .profession{
     color: rgb(121, 158, 214);
     font-weight: 600;
     font-size: 20px;
     margin-bottom: 100px;
 }
-.right h3{
+#invoice .right h3{
     color: rgb(121, 158, 214);
     font-size: 16px;
+}
+#invoice2 .left{
+    background-color: #e5f1ff;
+    padding: 40px ;
+    color: #707070;
+    height: 100%;
+    font-size: 18px;
+}
+#invoice2 .left img{
+    border-radius: 50%;
+    height: 100px;
+    border: 2px solid #0067de;
+    object-fit: cover;
+}
+#invoice2 .left h2{
+    font-size: 16px;
+    color:#0067de;
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 40px;
+}
+#invoice2 .right{
+    padding: 40px ;
+}
+#invoice2 .right h1{
+    color: #0067de;
+    font-weight: 700;
+}
+#invoice2 .right hr{
+    width: 100px;
+    background-color: #0067de;
+    height: 2px;
+}
+#invoice2 .right .profession{
+    color: rgb(121, 158, 214);
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+#invoice2 .right h3{
+    color: #0067de;
+    font-weight: 600;
+    font-size: 22px;
 }

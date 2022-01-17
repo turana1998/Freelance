@@ -24,10 +24,10 @@
 </head>
 
 <body>
-    <div class="container mt-5 bg">
+    <div class="container mt-5">
         <form class="input-fields w-75">
-            <div class="alert alert-secondary">
-                <h1 style="text-align: center;">Resume Generator</h1>
+            <div class="">
+                <h1 class="title" style="text-align: center;">Resume Generator</h1>
                 <input class="form-control" type="text" name="name" placeholder="name" />
                 <input type="text" name="title" class="form-control mb-3" placeholder="Title eg web developer" />
                 <textarea name="workexp" class="form-control mb-3" placeholder="work experience"></textarea>
@@ -38,12 +38,15 @@
                 <textarea name="achievements" class="form-control mb-3" placeholder="achievements"></textarea>
                 <textarea name="contact" class="form-control mb-3" placeholder="contact"></textarea>
             </div>
-
+            <div class="temp text-center m-3">
+                <button onclick="toggle2()"><img src="./t1.PNG"/></button>
+                <button onclick="toggle()"><img src="./t2.PNG"/></button>
+            </div>
         </form>
 
     </div>
     
-
+    
     <!-- resume preview -->
     <div class="output">
 

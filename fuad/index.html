@@ -52,7 +52,7 @@
                                     <a class="nav-link " aria-current="page" href="index.html#main">Haqqımızda</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link " href="recept-detail.html">Məhsullar </a>
+                                    <a class="nav-link " href="#product">Məhsullar </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="recept.html">Reseptlər </a>
@@ -467,7 +467,17 @@
         }
     });
 
+    function goTo(el) {
 
+    $('html, body').animate({
+        scrollTop: el.offset().top + '400px'
+    }, 'fast');
+
+    }
+
+    $('a[href="index.html#main"]').on('click',function() {
+    goTo( $('body') );
+    });
     $("#header .regular").slick({
         dots: true,
         infinite: true,

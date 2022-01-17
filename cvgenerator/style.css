@@ -1,7 +1,7 @@
-.bg{
-    background-image: url(./bg.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
+body{
+    background-color: #5e8fd8e7;
+}.title{
+    color: #fff;
 }
 .input-fields{
     margin: 2px auto;
@@ -52,4 +52,15 @@ button{
     font-size: 18px;
     border: none;
     border-radius: 5px;
+}
+.temp button{
+    height: 400px;
+    width: 300px;
+    margin: 50px;
+    
+}
+.temp button img{
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
 }
