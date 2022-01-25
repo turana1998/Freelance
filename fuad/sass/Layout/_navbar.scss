@@ -113,7 +113,9 @@
     position: absolute;
     z-index: 999999;
     width: 100%;
-
+    .dropdown-menu {
+        top: 30px;
+    }
     .navbar-brand {
         margin-right: 100px;
 
@@ -164,9 +166,7 @@
                 padding-bottom: 15px;
                 border-bottom: 2px solid transparent;
 
-                &:hover {
-                    border-bottom: 2px solid $main;
-                }
+                
 
             }
 
@@ -255,7 +255,7 @@
             color: $white;
             margin: 0;
             margin-right: 15px;
-            width: 70%;
+            width: 50%;
 
         }
     }

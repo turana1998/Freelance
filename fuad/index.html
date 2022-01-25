@@ -94,13 +94,15 @@
                             <a href="">EN</a>
                             <a href="">RU</a>
                         </div>
-                        <div class="text2 d-flex d-lg-none ">
-                            <img src="./img/flg.png" />
-                            <a href="about.html">
-                                <p>Yeni Zelandiya
-                                    keyfiyyəti</p>
-                            </a>
-                        </div>
+                        <a href="about.html">
+                            <div class="text2 d-flex d-lg-none ">
+                                <img src="./img/flg.png" />
+                               
+                                    <p>Yeni Zelandiya
+                                        keyfiyyəti</p>
+                               
+                            </div>
+                        </a>
                         <div class="d-flex d-lg-none social">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-instagram"></i></a>
@@ -109,13 +111,15 @@
                     </div>
 
                 </div>
-                <div class="text d-none d-xl-flex">
-                    <a href="about.html">
-                        <p>Yeni Zelandiya
-                            keyfiyyəti</p>
-                    </a>
-                    <img src="./img/flg.png" />
-                </div>
+                <a href="about.html">
+                    <div class="text d-none d-xl-flex">
+                       
+                            <p>Yeni Zelandiya
+                                keyfiyyəti</p>
+                       
+                        <img src="./img/flg.png" />
+                    </div>
+                </a>
 
         </div>
 
@@ -386,7 +390,7 @@
                         </div>
                     </div>
                 </a>
-               
+
             </div>
             <div class="all">
                 <button>Bütün reseptlər</button>
@@ -469,14 +473,14 @@
 
     function goTo(el) {
 
-    $('html, body').animate({
-        scrollTop: el.offset().top + '400px'
-    }, 'fast');
+        $('html, body').animate({
+            scrollTop: el.offset().top + '400px'
+        }, 'fast');
 
     }
 
-    $('a[href="/#main"]').on('click',function() {
-    goTo( $('body') );
+    $('a[href="/#main"]').on('click', function () {
+        goTo($('body'));
     });
     $("#header .regular").slick({
         dots: true,
