@@ -13,7 +13,7 @@
         align-items: center;
 
         p {
-            font: normal 500 38px Zilla Slab;
+            font: normal 500 38px Roboto Slab;
             text-align: center;
             letter-spacing: 6px;
             text-transform: uppercase;
@@ -146,9 +146,9 @@
         }
     }
 
-    .navbar-expand-lg .offcanvas-body {
-        border-bottom: 1px solid rgba(37, 52, 118, 0.4);
-    }
+    //.navbar-expand-lg .offcanvas-body {
+    //    border-bottom: 1px solid rgba(37, 52, 118, 0.4);
+    //}
 
     .navbar-nav {
 
@@ -157,7 +157,7 @@
 
         .nav-item {
             .nav-link {
-                font: normal 300 18px Zilla Slab;
+                font: normal 300 15px Roboto Slab !important;
                 line-height: 22px;
                 letter-spacing: 1px;
                 color: $link;
@@ -165,8 +165,9 @@
                 padding: 0;
                 padding-bottom: 15px;
                 border-bottom: 2px solid transparent;
-
-                
+                &:hover{
+                     border-bottom: 2px solid $main;
+                }
 
             }
 
@@ -179,7 +180,7 @@
 
         .select_ {
 
-            font: normal 300 16px Zilla Slab;
+            font: normal 300 16px Roboto Slab;
             line-height: 19px;
             width: 40px;
             background-color: transparent;
@@ -206,7 +207,7 @@
             }
         }
         select {
-            font: normal 300 16px Zilla Slab;
+            font: normal 300 16px Roboto Slab;
             line-height: 19px;
             width: 40px;
             background-color: transparent;
@@ -249,7 +250,7 @@
         padding: 25px 20px;
 
         p {
-            font: normal 500 14px Zilla Slab;
+            font: normal 500 14px Roboto Slab;
             line-height: 17px;
             letter-spacing: 1px;
             color: $white;
@@ -267,7 +268,7 @@
         margin: 50px 0;
 
         p {
-            font: normal 500 14px Zilla Slab;
+            font: normal 500 14px Roboto Slab;
             line-height: 17px;
             letter-spacing: 1px;
             color: #1F1F24;

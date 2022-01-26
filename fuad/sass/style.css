@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -100,7 +101,7 @@ button {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     border-radius: 17px;
-    font: normal 300 16px Zilla Slab;
+    font: normal 300 16px Roboto Slab;
     line-height: 19px;
     letter-spacing: 1px;
     padding: 5px 10px;
@@ -192,7 +193,7 @@ button {
     margin: 0 !important;
   }
   #video .video-text span {
-    font: normal 600 18px Zilla Slab;
+    font: normal 600 18px Roboto Slab;
     color: #27AE60;
     margin-left: 0px !important;
     margin-top: 10px;
@@ -202,7 +203,7 @@ button {
     margin-right: 20px !important;
   }
   #video h1 {
-    font: normal 600 24px Zilla Slab;
+    font: normal 600 24px Roboto Slab;
     line-height: 30px;
     margin: 50px auto;
     text-align: center;
@@ -344,7 +345,7 @@ button {
 }
 
 #header .item p {
-  font: normal 500 38px Zilla Slab;
+  font: normal 500 38px Roboto Slab;
   text-align: center;
   letter-spacing: 6px;
   text-transform: uppercase;
@@ -479,12 +480,8 @@ button {
   color: #FFFFFF;
 }
 
-#nav .navbar-expand-lg .offcanvas-body {
-  border-bottom: 1px solid rgba(37, 52, 118, 0.4);
-}
-
 #nav .navbar-nav .nav-item .nav-link {
-  font: normal 300 18px Zilla Slab;
+  font: normal 300 15px Roboto Slab !important;
   line-height: 22px;
   letter-spacing: 1px;
   color: #1F1F24;
@@ -494,12 +491,16 @@ button {
   border-bottom: 2px solid transparent;
 }
 
+#nav .navbar-nav .nav-item .nav-link:hover {
+  border-bottom: 2px solid #27AE60;
+}
+
 #nav .navbar-nav .nav-item .nav-link.active {
   border-bottom: 2px solid #27AE60;
 }
 
 #nav .navbar-nav .select_ {
-  font: normal 300 16px Zilla Slab;
+  font: normal 300 16px Roboto Slab;
   line-height: 19px;
   width: 40px;
   background-color: transparent;
@@ -526,7 +527,7 @@ button {
 }
 
 #nav .navbar-nav select {
-  font: normal 300 16px Zilla Slab;
+  font: normal 300 16px Roboto Slab;
   line-height: 19px;
   width: 40px;
   background-color: transparent;
@@ -565,7 +566,7 @@ button {
 }
 
 #nav .text p {
-  font: normal 500 14px Zilla Slab;
+  font: normal 500 14px Roboto Slab;
   line-height: 17px;
   letter-spacing: 1px;
   color: #FFFFFF;
@@ -582,7 +583,7 @@ button {
 }
 
 #nav .text2 p {
-  font: normal 500 14px Zilla Slab;
+  font: normal 500 14px Roboto Slab;
   line-height: 17px;
   letter-spacing: 1px;
   color: #1F1F24;
@@ -596,7 +597,7 @@ button {
 }
 
 #footer .text {
-  font: normal normal 16px Zilla Slab;
+  font: normal normal 16px Roboto Slab;
   color: #FFFFFF;
   text-align: center;
   margin: 0;
@@ -616,7 +617,7 @@ button {
 }
 
 #footer .item h4 {
-  font: normal 600 24px Zilla Slab;
+  font: normal 600 24px Roboto Slab;
   line-height: 29px;
   color: #FFFFFF;
   margin: 0;
@@ -624,7 +625,7 @@ button {
 }
 
 #footer .item p {
-  font: normal 300 18px Zilla Slab;
+  font: normal 300 18px Roboto Slab;
   color: #FFFFFF;
   line-height: 28px;
   margin: 0;
@@ -694,14 +695,14 @@ button {
 }
 
 #banner .banner h2 {
-  font: normal bold 38px Zilla Slab;
+  font: normal bold 38px Roboto Slab;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #27AE60;
 }
 
 #banner .banner p {
-  font: normal 400 38px Zilla Slab;
+  font: normal 400 38px Roboto Slab;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #3E3E3E;
@@ -743,7 +744,7 @@ button {
 }
 
 #banner_mob .banner_mob h2 {
-  font: normal bold 24px Zilla Slab;
+  font: normal bold 24px Roboto Slab;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #27AE60;
@@ -751,7 +752,7 @@ button {
 }
 
 #banner_mob .banner_mob p {
-  font: normal 400 24px Zilla Slab;
+  font: normal 400 24px Roboto Slab;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #3E3E3E;
@@ -784,7 +785,7 @@ button {
 }
 
 #recept .title h2 {
-  font: normal 600 36px Zilla Slab;
+  font: normal 600 36px Roboto Slab;
   line-height: 43px;
   text-align: center;
   color: #3E3E3E;
@@ -852,7 +853,7 @@ button {
 }
 
 #recept .inside .recept h3 {
-  font: normal 600 24px Zilla Slab;
+  font: normal 600 24px Roboto Slab;
   line-height: 29px;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
@@ -861,7 +862,7 @@ button {
 }
 
 #recept .inside .recept p {
-  font: normal normal 18px Zilla Slab;
+  font: normal normal 18px Roboto Slab;
   line-height: 130%;
   color: #FFFFFF;
   opacity: 0.8;
@@ -871,7 +872,7 @@ button {
   background: #FFFFFF;
   border-radius: 46px;
   padding: 6px 20px;
-  font: normal 600 18px Zilla Slab;
+  font: normal 600 18px Roboto Slab;
   line-height: 22px;
   color: #27AE60;
   width: 80px;
@@ -888,7 +889,7 @@ button {
   padding: 12px 50px;
   border: none;
   color: #FFFFFF;
-  font: normal normal 20px Zilla Slab;
+  font: normal normal 20px Roboto Slab;
   line-height: 24px;
   border-radius: 33px;
   -webkit-transition: 0.5s;
@@ -1038,7 +1039,7 @@ button {
 }
 
 #video .video-text h1 {
-  font: normal 600 36px Zilla Slab;
+  font: normal 600 36px Roboto Slab;
   line-height: 43px;
   color: #3E3E3E;
   width: 80%;
@@ -1046,13 +1047,13 @@ button {
 
 #video .video-text p {
   margin-top: 100px;
-  font: normal 300 18px Zilla Slab;
+  font: normal 300 18px Roboto Slab;
   line-height: 22px;
   color: #1F1F24;
 }
 
 #video .video-text p span {
-  font: normal 600 18px Zilla Slab;
+  font: normal 600 18px Roboto Slab;
   color: #27AE60;
   margin-left: 30px;
 }
@@ -1201,7 +1202,7 @@ button {
 }
 
 #food .item h3 {
-  font: normal 600 24px Zilla Slab;
+  font: normal 600 24px Roboto Slab;
   color: #3E3E3E;
   margin-bottom: 30px;
 }
@@ -1211,37 +1212,37 @@ button {
 }
 
 #food .item li {
-  font: normal normal 16px Zilla Slab !important;
+  font: normal normal 16px Roboto Slab !important;
   line-height: 28px !important;
   color: #1F1F24 !important;
 }
 
 #food .item li > * {
-  font: normal normal 16px Zilla Slab !important;
+  font: normal normal 16px Roboto Slab !important;
   line-height: 28px !important;
   color: #1F1F24 !important;
 }
 
 #food .item li {
-  font: normal normal 16px Zilla Slab !important;
+  font: normal normal 16px Roboto Slab !important;
   line-height: 28px !important;
   color: #1F1F24 !important;
 }
 
 #food .item li span {
-  font: normal normal 16px Zilla Slab !important;
+  font: normal normal 16px Roboto Slab !important;
   line-height: 28px !important;
   color: #1F1F24 !important;
 }
 
 #food .item li span span {
-  font: normal normal 16px Zilla Slab !important;
+  font: normal normal 16px Roboto Slab !important;
   line-height: 28px !important;
   color: #1F1F24 !important;
 }
 
 #food .item2 h3 {
-  font: normal 600 24px Zilla Slab;
+  font: normal 600 24px Roboto Slab;
   color: #3E3E3E;
   margin-bottom: 30px;
 }
@@ -1251,13 +1252,13 @@ button {
 }
 
 #food .item2 li {
-  font: normal normal 16px Zilla Slab;
+  font: normal normal 16px Roboto Slab;
   line-height: 28px;
   color: #1F1F24;
 }
 
 #food .item2 p {
-  font: normal 300 18px Zilla Slab;
+  font: normal 300 18px Roboto Slab;
   color: #1F1F24;
 }
 
@@ -1276,13 +1277,13 @@ button {
 }
 
 #others .title h2 {
-  font: normal 600 24px Zilla Slab;
+  font: normal 600 24px Roboto Slab;
   line-height: 29px;
   color: #3E3E3E;
 }
 
 #others .title a {
-  font: normal 500 18px Zilla Slab;
+  font: normal 500 18px Roboto Slab;
   font-size: 18px;
   line-height: 22px;
   -webkit-text-decoration-line: underline;
@@ -1324,14 +1325,14 @@ button {
 }
 
 #others .others_ .text h4 {
-  font: normal 600 20px Zilla Slab;
+  font: normal 600 20px Roboto Slab;
   line-height: 24px;
   color: #3E3E3E;
   margin-bottom: 20px;
 }
 
 #others .others_ .text p {
-  font: normal normal 16px Zilla Slab;
+  font: normal normal 16px Roboto Slab;
   line-height: 130%;
   margin: 0;
   color: #858585;
@@ -1419,7 +1420,7 @@ button {
 
 #about h2 {
   margin-top: 40px;
-  font: normal 600 36px Zilla Slab;
+  font: normal 600 36px Roboto Slab;
   font-size: 36px;
   color: #000000;
   text-align: center;
@@ -1442,7 +1443,7 @@ button {
 }
 
 #about p {
-  font: normal 300 18px Zilla Slab;
+  font: normal 300 18px Roboto Slab;
   line-height: 30px;
   color: #808080;
   opacity: 0.93;
@@ -1464,7 +1465,7 @@ button {
 }
 
 #main .main_mob h3 {
-  font: normal 600 24px Zilla Slab;
+  font: normal 600 24px Roboto Slab;
   line-height: 43px;
   margin-bottom: 25px;
   text-align: center;
@@ -1472,7 +1473,7 @@ button {
 }
 
 #main .main_mob p {
-  font: normal 300 16px Zilla Slab;
+  font: normal 300 16px Roboto Slab;
   color: #333333;
   opacity: 0.5;
   margin: 20px 0 0 0 !important;
@@ -1530,21 +1531,21 @@ button {
 }
 
 #main .inside h3 {
-  font: normal 600 36px Zilla Slab;
+  font: normal 600 36px Roboto Slab;
   line-height: 43px;
   margin-bottom: 25px;
   color: #1F1F24;
 }
 
 #main .inside p > * {
-  font: normal 300 20px Zilla Slab !important;
+  font: normal 300 20px Roboto Slab !important;
   color: #333333 !important;
   line-height: 34px !important;
   margin: 0 !important;
 }
 
 #main .inside p {
-  font: normal 300 20px Zilla Slab !important;
+  font: normal 300 20px Roboto Slab !important;
   color: #333333 !important;
   opacity: 0.8;
   line-height: 34px !important;
@@ -1552,21 +1553,21 @@ button {
 }
 
 #main .inside p span {
-  font: normal 300 20px Zilla Slab !important;
+  font: normal 300 20px Roboto Slab !important;
   color: #333333 !important;
   line-height: 34px !important;
   margin: 0 !important;
 }
 
 #main .inside p span span {
-  font: normal 300 20px Zilla Slab !important;
+  font: normal 300 20px Roboto Slab !important;
   color: #333333 !important;
   line-height: 34px !important;
   margin: 0 !important;
 }
 
 #product .title h2 {
-  font: normal 600 36px Zilla Slab;
+  font: normal 600 36px Roboto Slab;
   line-height: 43px;
   text-align: center;
   color: #3E3E3E;
@@ -1627,7 +1628,7 @@ button {
 }
 
 #product .item2 p {
-  font-family: Zilla Slab;
+  font-family: Roboto Slab;
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
@@ -1641,7 +1642,7 @@ button {
 }
 
 #product p {
-  font: normal normal 18px Zilla Slab;
+  font: normal normal 18px Roboto Slab;
   line-height: 22px;
   color: #3E3E3E;
   margin-top: 20px;
