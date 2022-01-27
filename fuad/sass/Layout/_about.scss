@@ -36,11 +36,20 @@
        
     }
     p{
-        font: normal 300 18px Roboto Slab;
+        font: normal normal 18px Roboto Slab;
         line-height: 30px;
         color: #808080;
         opacity: 0.93;
         text-align: justify;
+        span{
+            font: normal 300 18px Roboto Slab;
+            color: #808080;
+            span{
+                font: normal 300 18px Roboto Slab;
+                color: #808080;
+            }
+           
+        }
        
        
     }

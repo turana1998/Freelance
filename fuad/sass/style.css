@@ -500,7 +500,7 @@ button {
 }
 
 #nav .navbar-nav .select_ {
-  font: normal 300 16px Roboto Slab;
+  font: normal 300 15px Roboto Slab;
   line-height: 19px;
   width: 40px;
   background-color: transparent;
@@ -617,7 +617,7 @@ button {
 }
 
 #footer .item h4 {
-  font: normal 600 24px Roboto Slab;
+  font: normal 600 21px Roboto Slab;
   line-height: 29px;
   color: #FFFFFF;
   margin: 0;
@@ -625,7 +625,7 @@ button {
 }
 
 #footer .item p {
-  font: normal 300 18px Roboto Slab;
+  font: normal 300 17px Roboto Slab;
   color: #FFFFFF;
   line-height: 28px;
   margin: 0;
@@ -1443,11 +1443,21 @@ button {
 }
 
 #about p {
-  font: normal 300 18px Roboto Slab;
+  font: normal normal 18px Roboto Slab;
   line-height: 30px;
   color: #808080;
   opacity: 0.93;
   text-align: justify;
+}
+
+#about p span {
+  font: normal 300 18px Roboto Slab;
+  color: #808080;
+}
+
+#about p span span {
+  font: normal 300 18px Roboto Slab;
+  color: #808080;
 }
 
 #banner2 {
