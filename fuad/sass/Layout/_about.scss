@@ -16,7 +16,7 @@
     }
     h2{
         margin-top: 40px;
-        font: normal 600 36px Roboto Slab;
+        font: normal 600 36px Roboto Slab !important;
         font-size: 36px;
         color: $black;
         text-align: center;
@@ -36,16 +36,17 @@
        
     }
     p{
-        font: normal normal 18px Roboto Slab;
+        font: normal normal 20px Roboto Slab !important;
         line-height: 30px;
         color: #808080;
+        margin: 10px 0 !important;
         opacity: 0.93;
         text-align: justify;
         span{
-            font: normal 300 18px Roboto Slab;
+            font: normal 300 20px Roboto Slab !important;
             color: #808080;
             span{
-                font: normal 300 18px Roboto Slab;
+                font: normal 300 20px Roboto Slab !important;
                 color: #808080;
             }
            

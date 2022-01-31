@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto Slab' !important;
 }
 
 a {
@@ -160,7 +160,8 @@ button {
     background-size: cover !important;
   }
   #header .item p {
-    font-size: 28px !important;
+    font-size: 24px !important;
+    width: 100% !important;
   }
   #header .regular .prev {
     top: unset !important;
@@ -218,9 +219,6 @@ button {
     border-bottom: 2px solid #D7D8DA;
     padding-bottom: 40px;
     margin-bottom: 40px;
-  }
-  #food .item2 ol {
-    padding: 0 15px  !important;
   }
   #others {
     padding: 0 20px;
@@ -284,7 +282,7 @@ button {
   }
   #about h2 {
     font-size: 24px !important;
-    width: 200px;
+    width: 100% !important;
     margin: auto !important;
     margin-top: 40px !important;
   }
@@ -501,7 +499,7 @@ button {
 
 #nav .navbar-nav .select_ {
   font: normal 300 15px Roboto Slab;
-  line-height: 19px;
+  line-height: 22px;
   width: 40px;
   background-color: transparent;
   letter-spacing: 1px;
@@ -1212,31 +1210,31 @@ button {
 }
 
 #food .item li {
-  font: normal normal 16px Roboto Slab !important;
+  font: normal 300 16px Roboto Slab !important;
   line-height: 28px !important;
   color: #1F1F24 !important;
 }
 
 #food .item li > * {
-  font: normal normal 16px Roboto Slab !important;
+  font: normal 300 16px Roboto Slab !important;
   line-height: 28px !important;
   color: #1F1F24 !important;
 }
 
 #food .item li {
-  font: normal normal 16px Roboto Slab !important;
+  font: normal 300 16px Roboto Slab !important;
   line-height: 28px !important;
   color: #1F1F24 !important;
 }
 
 #food .item li span {
-  font: normal normal 16px Roboto Slab !important;
+  font: normal 300 16px Roboto Slab !important;
   line-height: 28px !important;
   color: #1F1F24 !important;
 }
 
 #food .item li span span {
-  font: normal normal 16px Roboto Slab !important;
+  font: normal 300 16px Roboto Slab !important;
   line-height: 28px !important;
   color: #1F1F24 !important;
 }
@@ -1252,13 +1250,23 @@ button {
 }
 
 #food .item2 li {
-  font: normal normal 16px Roboto Slab;
+  font: normal 300 16px Roboto Slab !important;
   line-height: 28px;
   color: #1F1F24;
 }
 
 #food .item2 p {
-  font: normal 300 18px Roboto Slab;
+  font: normal 300 18px Roboto Slab !important;
+  color: #1F1F24;
+}
+
+#food .item2 p span {
+  font: normal 300 18px Roboto Slab !important;
+  color: #1F1F24;
+}
+
+#food .item2 p span span {
+  font: normal 300 18px Roboto Slab !important;
   color: #1F1F24;
 }
 
@@ -1420,7 +1428,7 @@ button {
 
 #about h2 {
   margin-top: 40px;
-  font: normal 600 36px Roboto Slab;
+  font: normal 600 36px Roboto Slab !important;
   font-size: 36px;
   color: #000000;
   text-align: center;
@@ -1443,20 +1451,21 @@ button {
 }
 
 #about p {
-  font: normal normal 18px Roboto Slab;
+  font: normal normal 20px Roboto Slab !important;
   line-height: 30px;
   color: #808080;
+  margin: 10px 0 !important;
   opacity: 0.93;
   text-align: justify;
 }
 
 #about p span {
-  font: normal 300 18px Roboto Slab;
+  font: normal 300 20px Roboto Slab !important;
   color: #808080;
 }
 
 #about p span span {
-  font: normal 300 18px Roboto Slab;
+  font: normal 300 20px Roboto Slab !important;
   color: #808080;
 }
 
@@ -1595,7 +1604,7 @@ button {
   content: "";
   margin: 0 auto;
   position: absolute;
-  top: 60%;
+  top: 63%;
   left: 0;
   background-image: -webkit-gradient(linear, left top, right top, from(#27ae5f83), color-stop(40%, rgba(0, 0, 0, 0)), color-stop(60%, rgba(0, 0, 0, 0)), to(#27ae5f83));
   background-image: linear-gradient(to right, #27ae5f83, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 60%, #27ae5f83);

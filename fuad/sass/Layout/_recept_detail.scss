@@ -243,26 +243,26 @@
             padding: 0;
         }
         li{
-            font: normal normal 16px Roboto Slab !important;
+            font: normal 300 16px Roboto Slab !important;
             line-height: 28px !important;
             color: #1F1F24 !important;
         }
         li > * {
-            font: normal normal 16px Roboto Slab !important;
+            font: normal 300 16px Roboto Slab !important;
             line-height: 28px !important;
             color: #1F1F24 !important;
           }
           
         li {
-            font: normal normal 16px Roboto Slab !important;
+            font: normal 300 16px Roboto Slab !important;
             line-height: 28px !important;
             color: #1F1F24 !important;
             span{
-                font: normal normal 16px Roboto Slab !important;
+                font: normal 300 16px Roboto Slab !important;
                 line-height: 28px !important;
                 color: #1F1F24 !important;
                 span{
-                    font: normal normal 16px Roboto Slab !important;
+                    font: normal 300 16px Roboto Slab !important;
                     line-height: 28px !important;
                     color: #1F1F24 !important;
                 }
@@ -281,14 +281,22 @@
             padding: 0;
         }
         li{
-            font: normal normal 16px Roboto Slab;
+            font: normal 300 16px Roboto Slab !important;
             line-height: 28px;
             color: #1F1F24;
         }
         p{
-            font: normal 300 18px Roboto Slab;
+            font: normal 300 18px Roboto Slab !important;
             color: #1F1F24;
            
+            span{
+                font: normal 300 18px Roboto Slab !important;
+                color: #1F1F24;
+             span{
+                font: normal 300 18px Roboto Slab !important;
+                color: #1F1F24;
+             }
+            }
         }
     }
     
