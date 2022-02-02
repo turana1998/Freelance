@@ -206,9 +206,47 @@
             margin: 0 !important;
             margin-bottom: 30px !important;
             .recept {
-                height: 320px !important;
-                padding: 25px !important;
-                margin: 0 !important;
+                height: 320px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: 15px;
+                display: flex;
+                padding: 35px;
+                flex-direction: column;
+                justify-content: space-between;
+                -webkit-transition: all 0.8s ease-in-out;
+                position: relative;
+                overflow: hidden;
+                &:hover{
+                    -webkit-transform: scale(1.1); 
+                    transform: scale(1.1);
+                    -webkit-transition: all 0.8s ease-in-out;
+                }
+        
+                h3 {
+                    font: normal 600 24px Roboto Slab;
+                    line-height: 29px;
+                    text-decoration-line: underline;
+                    color: $white;
+                    margin-bottom: 10px;
+                }
+        
+                p {
+                    font: normal normal 18px Roboto Slab;
+                    line-height: 130%;
+                    color: $white;
+                    opacity: 0.8;
+                }
+        
+                .new {
+                    background: $white;
+                    border-radius: 46px;
+                    padding: 6px 20px;
+                    font: normal 600 18px Roboto Slab;
+                    line-height: 22px;
+                    color: $main;
+                    width: 80px;
+                }
             }
         }
         .regular{
@@ -310,4 +348,7 @@
             }
         }
     }
+}
+@media (min-width: 992px) {
+
 }

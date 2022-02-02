@@ -1,9 +1,12 @@
 
-const inputfields = document.querySelector('.input-fields')
-const output = document.querySelector('.output')
+const inputfields = document.querySelector('.input-fields');
+const output = document.querySelector('.output');
+const first = document.querySelector('#first');
+const second = document.querySelector('#second');
+const mainn = document.querySelector('.mainn');
 
 let inputShow = true
-
+let select = true;
 
 async function TextEditor(element) {
   const newEditor = await ClassicEditor
@@ -22,15 +25,32 @@ let Academic;
 TextEditor(inputfields["academics"]).then(nEditor => {
   Academic = nEditor
 })
-
-
+function select1(el){
+  select=false;
+  event.preventDefault();
+  second.style.border="none"; 
+  second.style.padding="0";
+  el.style.border="5px solid #fff"; 
+  el.style.padding="10px";
+}
+function select2(el){
+  select=true;
+  event.preventDefault();
+  first.style.border="none"; 
+  first.style.padding="0";
+  el.style.border="5px solid #fff"; 
+  el.style.padding="10px";
+  
+}
 
 function toggle() {
   event.preventDefault()
+  console.log(select);
   if (inputShow) {
     inputfields.style.display = "none"
     inputShow = false
-    output.innerHTML = `
+    if(select){
+      output.innerHTML = `
          
        <div id="invoice">
        <div class="">
@@ -83,18 +103,9 @@ function toggle() {
           
   
          `
-  } else {
-    inputfields.style.display = "block"
-    inputShow = true
-    output.innerHTML = ""
-  }
-}
-function toggle2() {
-  event.preventDefault()
-  if (inputShow) {
-    inputfields.style.display = "none"
-    inputShow = false
-    output.innerHTML = `
+    }
+    else{
+      output.innerHTML = `
          
        <div id="invoice2">
        <div class="">
@@ -147,6 +158,8 @@ function toggle2() {
           
   
          `
+    }
+    
   } else {
     inputfields.style.display = "block"
     inputShow = true

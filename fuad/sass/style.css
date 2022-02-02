@@ -243,9 +243,52 @@ button {
     margin-bottom: 30px !important;
   }
   #recept .inside .recept {
-    height: 320px !important;
-    padding: 25px !important;
-    margin: 0 !important;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 35px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-transition: all 0.8s ease-in-out;
+    position: relative;
+    overflow: hidden;
+  }
+  #recept .inside .recept:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 0.8s ease-in-out;
+  }
+  #recept .inside .recept h3 {
+    font: normal 600 24px Roboto Slab;
+    line-height: 29px;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+  }
+  #recept .inside .recept p {
+    font: normal normal 18px Roboto Slab;
+    line-height: 130%;
+    color: #FFFFFF;
+    opacity: 0.8;
+  }
+  #recept .inside .recept .new {
+    background: #FFFFFF;
+    border-radius: 46px;
+    padding: 6px 20px;
+    font: normal 600 18px Roboto Slab;
+    line-height: 22px;
+    color: #27AE60;
+    width: 80px;
   }
   #recept .regular .inside {
     height: 250px !important;
@@ -823,57 +866,47 @@ button {
   border-radius: 15px;
 }
 
-#recept .inside .recept {
-  height: 400px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 15px;
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 35px;
-  -webkit-transition: all 0.8s ease-in-out;
-  position: relative;
-  overflow: hidden;
-}
-
-#recept .inside .recept:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-  -webkit-transition: all 0.8s ease-in-out;
-}
-
-#recept .inside .recept h3 {
-  font: normal 600 24px Roboto Slab;
-  line-height: 29px;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
-  color: #FFFFFF;
-  margin-bottom: 10px;
-}
-
-#recept .inside .recept p {
-  font: normal normal 18px Roboto Slab;
-  line-height: 130%;
-  color: #FFFFFF;
-  opacity: 0.8;
-}
-
-#recept .inside .recept .new {
-  background: #FFFFFF;
-  border-radius: 46px;
-  padding: 6px 20px;
-  font: normal 600 18px Roboto Slab;
-  line-height: 22px;
-  color: #27AE60;
-  width: 80px;
+@media (min-width: 992px) {
+  #recept .inside .recept {
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    padding: 35px;
+    -webkit-transition: all 0.8s ease-in-out;
+    position: relative;
+    overflow: hidden;
+  }
+  #recept .inside .recept:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 0.8s ease-in-out;
+  }
+  #recept .inside .recept h3 {
+    font: normal 600 24px Roboto Slab;
+    line-height: 29px;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    margin-top: 55%;
+  }
+  #recept .inside .recept p {
+    font: normal normal 18px Roboto Slab;
+    line-height: 130%;
+    color: #FFFFFF;
+    opacity: 0.8;
+  }
+  #recept .inside .recept .new {
+    background: #FFFFFF;
+    border-radius: 46px;
+    padding: 6px 20px;
+    font: normal 600 18px Roboto Slab;
+    line-height: 22px;
+    color: #27AE60;
+    width: 80px;
+    position: absolute;
+  }
 }
 
 #recept .all {
