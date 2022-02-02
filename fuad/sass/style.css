@@ -1453,7 +1453,7 @@ button {
 
 #about p {
   font: normal normal 20px Roboto Slab !important;
-  line-height: 30px;
+  line-height: 34px !important;
   color: #808080;
   margin: 10px 0 !important;
   opacity: 0.93;
