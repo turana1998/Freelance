@@ -864,6 +864,7 @@ button {
   line-height: 130%;
   color: #FFFFFF;
   opacity: 0.8;
+  height: 55px;
 }
 
 #recept .inside .recept .new {
