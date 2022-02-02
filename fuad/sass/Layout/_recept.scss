@@ -71,13 +71,14 @@
         overflow: hidden;
         margin: 0 15px 30px 15px;
         border-radius: 15px;
-        @media (min-width: 992px) {
-            .recept {
+        .recept {
             height: 400px;
             background-repeat: no-repeat;
             background-size: cover;
             border-radius: 15px;
-            
+            display: flex !important;
+            justify-content: space-between;
+            flex-direction: column;
             padding: 35px;
          
             -webkit-transition: all 0.8s ease-in-out;
@@ -95,7 +96,6 @@
                 text-decoration-line: underline;
                 color: $white;
                 margin-bottom: 10px;
-                margin-top: 55%;
             }
     
             p {
@@ -113,11 +113,8 @@
                 line-height: 22px;
                 color: $main;
                 width: 80px;
-                position: absolute;
             }
         }
-        }
-        
     }
 
     .all {
